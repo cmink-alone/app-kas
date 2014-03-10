@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/logo1.png);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:right bottom; 
+	margin-left: 0px;
+	margin-top: 30px;
+	text-decoration:none;
+}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+table {
+	border-collapse:collapse;
+}
+.thBorder {
+	border: none;
+	font-size:16px;
+	font-weight:bold;
+}
+.tdBorder {
+	border: solid 1px #999;
+}
+.trBorder {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.trBorder:hover {
+	margin-bottom: 50px;
+	text-align: center;
+	background-color: #0CF;
+	cursor:pointer;
+}
+.buttonSimpan{
+	font-size:13px;
+	color:#000;
+	background-color: #C5C5C5;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-left: 9px;
+	padding-right:9px;
+	font-weight:bold;
+	cursor: pointer;
+	border: 0px;
+	-moz-border-radius: 5px;
+}
+.buttonGo{
+	font-size:13px;
+	color:#000;
+	background-color:#C5C5C5;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 9px;
+	padding-right:9px;
+	font-weight:bold;
+	cursor: pointer;
+	border: 0px;
+	-moz-border-radius: 5px;
+}
+.classTbl2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+.divMenu{
+	text-decoration: none;
+	color:#FFF;
+	width: 100%; 
+	background-color:#F00;  
+	margin-bottom: -15px;
+	text-align:center;
+	position:inherit;
+	text-decoration: none;
+	font-weight:bold;
+	cursor: pointer;
+	padding-bottom: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-webkit-box-shadow: 0 5px 10px #adadad;
+	-moz-box-shadow: 0 5px 10px #adadad;
+}
+.divMenu:hover{
+	padding-top: 5px;
+	padding-bottom: -15px;
+	text-decoration: none;
+	background-color: #67D7FC; 
+}
