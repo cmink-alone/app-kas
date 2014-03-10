@@ -2,7 +2,7 @@
 //ENTER THE RELEVANT INFO BELOW
 $mysqlDatabaseName ='db_mercu';
 $mysqlUserName ='localhost';
-$mysqlPassword ='';
+$mysqlPassword ='admin';
 $mysqlHostName ='localhost';
 $mysqlImportFilename ='db_mercu_smt_4.sql';
 

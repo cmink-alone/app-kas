@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (empty($_SESSION['id'])) {
+  echo"<script>
+  location='../index.php';
+  </script>";
+} else {
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -29,7 +38,7 @@ include("../configuration/config.php");
       </div>
       </td>
       <td width="70" style="font-size:10px; text-align:right">
-      <a href="../index.php" >
+      <a href="../index_admin.php" >
       <div class="divMenu">
       <span class="spanMenu">Iuran</span>
       </div>
@@ -49,10 +58,18 @@ include("../configuration/config.php");
       </div>
       </a>
       </td>
+      <td width="70" style="font-size:10px; font-weight: normal; text-align:right">
+       <a href="logout.php">
+        <div class="divMenu">
+      <span class="spanMenu">Logout !!</span>
+      </div>
+      </a>
+      
+      </td>
       <td width="0" style="font-size:10px; font-weight: normal; text-align:right">&nbsp;</td>
     </tr>
     <tr>
-      <td height="80" colspan="5" valign="top" style="font-size:18px; border-top: solid 5px black;">DAFTAR MAHASISWA</td>
+      <td height="80" colspan="6" valign="top" style="font-size:18px; border-top: solid 5px black;">DAFTAR MAHASISWA</td>
     </tr>
   </table>
 <form id="form1" name="form1" method="post" action="../system/simpan.php">
@@ -85,3 +102,5 @@ include("../configuration/config.php");
 </form>
 </body>
 </html>
+
+<? } ?>
